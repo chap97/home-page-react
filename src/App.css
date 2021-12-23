@@ -1,0 +1,35 @@
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 300px 300px 300px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.logo {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.weather {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.stocks {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.news {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
